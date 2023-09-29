@@ -139,7 +139,7 @@
 .landing-page-text06 {
   margin-bottom: 8px;
 }
-.landing-page-link01 {
+.landing-page-link1 {
   display: contents;
 }
 .landing-page-follow-container {
@@ -158,21 +158,21 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.landing-page-link02 {
+.landing-page-link2 {
   display: contents;
 }
 .landing-page-icon05 {
   width: 24px;
   height: 24px;
 }
-.landing-page-link03 {
+.landing-page-link3 {
   display: contents;
 }
 .landing-page-icon07 {
   width: 24px;
   height: 24px;
 }
-.landing-page-link04 {
+.landing-page-link4 {
   display: contents;
 }
 .landing-page-icon09 {
@@ -204,6 +204,7 @@
 .landing-page-main {
   width: 100%;
   display: flex;
+  position: relative;
   align-items: center;
   padding-top: var(--dl-space-space-quadruple);
   padding-left: var(--dl-space-space-doubleunit);
@@ -211,15 +212,6 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-quadruple);
   justify-content: flex-start;
-}
-.landing-page-image {
-  width: 100%;
-  object-fit: cover;
-}
-.landing-page-image1 {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
 }
 .landing-page-container1 {
   flex: 0 0 auto;
@@ -229,6 +221,91 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
+}
+.landing-page-link5 {
+  display: contents;
+}
+.landing-page-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  z-index: 100;
+  align-items: center;
+  padding-right: 10px;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.landing-page-image {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.landing-page-image01 {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.landing-page-image02 {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.landing-page-image03 {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.landing-page-image04 {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.landing-page-image05 {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.landing-page-image06 {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.landing-page-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing-page-image07 {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.landing-page-image08 {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.landing-page-image09 {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.landing-page-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing-page-image10 {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
 }
 .landing-page-footer {
   color: var(--dl-color-gray-white);
@@ -248,53 +325,14 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.landing-page-links-container2 {
+.landing-page-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
   display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.landing-page-container2 {
-  display: flex;
-  align-items: flex-start;
-  margin-left: 100px;
+  align-items: space-between;
   flex-direction: column;
-}
-.landing-page-link05 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.landing-page-link06 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.landing-page-link07 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.landing-page-link08 {
-  text-decoration: none;
-}
-.landing-page-container3 {
-  display: flex;
-  align-items: flex-start;
-  margin-left: 100px;
-  flex-direction: column;
-}
-.landing-page-link09 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.landing-page-link10 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.landing-page-link11 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.landing-page-link12 {
-  text-decoration: none;
 }
 .landing-page-follow-container1 {
   display: flex;
@@ -313,7 +351,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.landing-page-link13 {
+.landing-page-link6 {
   display: contents;
 }
 .landing-page-icon11 {
@@ -321,7 +359,7 @@
   width: 24px;
   height: 24px;
 }
-.landing-page-link14 {
+.landing-page-link7 {
   display: contents;
 }
 .landing-page-icon13 {
@@ -329,7 +367,7 @@
   width: 24px;
   height: 24px;
 }
-.landing-page-link15 {
+.landing-page-link8 {
   display: contents;
 }
 .landing-page-icon15 {
@@ -369,14 +407,6 @@
   .landing-page-menu {
     flex-direction: column;
   }
-  .landing-page-links-container2 {
-    margin-top: var(--dl-space-space-tripleunit);
-    margin-bottom: var(--dl-space-space-tripleunit);
-    justify-content: space-between;
-  }
-  .landing-page-container2 {
-    margin-left: 0px;
-  }
 }
 @media(max-width: 479px) {
   .landing-page-text09 {
@@ -386,40 +416,6 @@
   .landing-page-subheading {
     font-size: 1.3rem;
     text-align: center;
-  }
-  .landing-page-links-container2 {
-    margin-top: var(--dl-space-space-doubleunit);
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .landing-page-link05 {
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .landing-page-link06 {
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .landing-page-link07 {
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .landing-page-link08 {
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .landing-page-container3 {
-    height: 100%;
-    align-items: flex-start;
-    margin-left: 50px;
-  }
-  .landing-page-link09 {
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .landing-page-link10 {
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .landing-page-link11 {
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .landing-page-link12 {
-    margin-bottom: var(--dl-space-space-halfunit);
   }
   .landing-page-follow-container1 {
     margin-left: 0px;
